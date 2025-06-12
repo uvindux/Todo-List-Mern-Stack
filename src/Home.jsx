@@ -32,7 +32,7 @@ function Home() {
       {
         todos.length === 0 
           ? (
-            <div><h2>No Record</h2></div>
+            <div><h2>No Records</h2></div>
           ) : (
             todos.map((todo, index) => (
               <div className="task" key={index}>
